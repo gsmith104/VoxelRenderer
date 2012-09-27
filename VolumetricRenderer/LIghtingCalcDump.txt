@@ -1,0 +1,26 @@
+			////Run the lighting calculations
+			//if (voxelBuffer[voxelIndex].getLightValue()==-1){
+			//	glm::vec3 lightRay = Xi;
+			//	glm::vec3 lightVector = (lightPosition - cameraPosition - Xi*step)/glm::length(lightPosition - cameraPosition - Xi*step);
+
+			////	//Test that the lightRay is still inside the voxel space
+			//	while(lightRay.x > 0 && lightRay.x < boundary.x && lightRay.y > 0 && lightRay.y < boundary.y && lightRay.z > -boundary.z && lightRay.z > 0)
+			//	{
+			//		int voxelIndex = indexVoxel(lightRay, bufferSize);
+			//		if(voxelIndex >= 0 && voxelIndex < (bufferSize.x*bufferSize.y*bufferSize.z)) {
+			//			lightRho = voxelBuffer[voxelIndex].getDensity();
+			//			float deltaQ = glm::exp(-k*lightRho*step);
+			//			Q+=deltaQ;
+			//			if (Q == 0) {
+			//				break;
+			//			}
+			//		}
+			//		lightRay += lightVector*step;
+			//	}
+
+			//	voxelBuffer[voxelIndex].setLightValue(Q);
+			//}
+			//else 
+			//{
+			//	Q = voxelBuffer[voxelIndex].getLightValue();
+			//}

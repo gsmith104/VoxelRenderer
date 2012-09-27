@@ -1,0 +1,7 @@
+﻿  Ray.cpp
+c:\users\greg\documents\visual studio 2012\projects\volumetricrenderer\volumetricrenderer\ray.cpp(64): warning C4305: 'initializing' : truncation from 'double' to 'float'
+c:\users\greg\documents\visual studio 2012\projects\volumetricrenderer\volumetricrenderer\ray.cpp(139): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+c:\users\greg\documents\visual studio 2012\projects\volumetricrenderer\volumetricrenderer\ray.cpp(140): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+c:\users\greg\documents\visual studio 2012\projects\volumetricrenderer\volumetricrenderer\ray.cpp(141): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+c:\users\greg\documents\visual studio 2012\projects\volumetricrenderer\volumetricrenderer\ray.cpp(143): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+  VolumetricRenderer.vcxproj -> C:\Users\Greg\documents\visual studio 2012\Projects\VolumetricRenderer\Debug\VolumetricRenderer.exe
